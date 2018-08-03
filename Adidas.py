@@ -6,4 +6,5 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 def login():
-    
+    browser = webdriver.Chrome()
+    browser.get((''))
